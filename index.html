@@ -418,14 +418,14 @@
 				setInterval(() => {
 					if ($("body").hasClass("pulseBorder")) {
 						$("body").removeClass("pulseBorder");
-						$("#musControls").removeClass("pulseBorder");
+
 						$("#links").removeClass("pulseBorder");
 						$("#clock").css("color", "--backColor");
 						$(".hitCount").css("color", "--backColor");
-						$("#musClick").css("color", "var(--backColor)");
+
 						$("#nowPlaying").css("color", "var(--backColor)");
 						$(".arrows").css("color", "var(--backColor)");
-						$("#closeMusControls").css("color", "var(--backColor)");
+
 						$("#linkClick").css("color", "var(--backColor)");
 						$("#closeLinks").css("color", "var(--backColor)");
 						$(".linkBtnTxt").css("color", "var(--backColor)");
@@ -434,14 +434,14 @@
 						$("a").css("color", "var(--backColor)");
 					} else {
 						$("body").addClass("pulseBorder");
-						$("#musControls").addClass("pulseBorder");
+
 						$("#links").addClass("pulseBorder");
 						$("#clock").css("color", "var(--pulseColor)");
 						$(".hitCount").css("color", "var(--pulseColor)");
-						$("#musClick").css("color", "var(--pulseColor)");
+
 						$("#nowPlaying").css("color", "var(--pulseColor)");
 						$(".arrows").css("color", "var(--pulseColor)");
-						$("#closeMusControls").css("color", "var(--pulseColor)");
+
 						$("#linkClick").css("color", "var(--pulseColor)");
 						$("#closeLinks").css("color", "var(--pulseColor)");
 						$(".linkBtnTxt").css("color", "var(--pulseColor)");
@@ -453,7 +453,6 @@
 
 
 				vidVar.play();
-				$("#musClick").css("opacity", "1");
 				$("#linkClick").css("opacity", "1");
 				$(".vidName").css("opacity", "1");
 				$("#clock").css("opacity", "1");
@@ -469,7 +468,7 @@
 
 			//shit lol
 			var title = ["⠀", "n", "no", "not", "noto", "notor", "notori", "notorio",
-				"notoriou", "notoriou"
+				"notoriou", "notorious"
 			];
 			var tI = 0;
 			let dir = 0;
